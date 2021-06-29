@@ -1,0 +1,239 @@
+@font-face {
+    font-family: 'Cafe24Oneprettynight';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_twelve@1.1/Cafe24Oneprettynight.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body{
+    display: flex;
+    justify-content: center; 
+    /* justify-content를 통해서 body에 있는 전체 요소들을 가운데 정렬 해줬습니다. 
+    이게 text-align과 차이점이라고 생각하시면 될것같아요 */
+
+    font-family: 'Cafe24Oneprettynight';
+}
+.header{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    position: fixed;
+   
+}
+.grid_containor{
+  
+    display: grid;
+    grid-template-columns: 50px 135px 135px 135px 135px 135px;
+    grid-template-rows: 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px 50px;
+    z-index: -1; /* 뒤로 보낸거에요 스크롤 해도 헤더가 시간표 위에 보일 수 있도록! */
+    margin-top: 100px;  /* 옆에 스크롤때문에? 안된다 하신 것 같은데 적용 됩니당 */
+  
+}
+.nine{
+    grid-row:2/4;
+    grid-column: 1/2;
+    background-color: rgb(218, 218, 218);
+}
+.ten{
+    grid-row: 4/6;
+    grid-column: 1/2;
+    background-color: rgb(218, 218, 218);
+}
+.oneone{
+    grid-row: 6/8;
+    grid-column:1/2;
+    background-color: rgb(218, 218, 218);
+}
+.onetwo{
+    grid-row: 8/10;
+    grid-column:1/2;
+    background-color: rgb(218, 218, 218);
+}
+.one{
+    grid-row: 10/12;
+    grid-column: 1/2;
+    background-color: rgb(218, 218, 218);
+}
+.two{
+    grid-row:12/14;
+    grid-column :1/2;
+    background-color: rgb(218, 218, 218);
+}
+.three{
+    grid-row:14/16;
+    grid-column: 1/2;
+    background-color: rgb(218, 218, 218);
+}
+.four{
+    grid-row:16/18;
+    grid-column: 1/2;
+    background-color: rgb(218, 218, 218);
+}
+.five{
+    grid-row:18/20;
+    grid-column: 1/2;
+    background-color: rgb(218, 218, 218);
+}
+.six{
+    grid-row:20/22;
+    grid-column: 1/2;
+    background-color: rgb(218, 218, 218);
+}
+.seven{
+    grid-column: 1/2;
+    grid-row:22/24;
+    background-color: rgb(218, 218, 218);
+}
+.mon{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(218, 218, 218);
+}
+.tue{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(218, 218, 218);
+}
+.wen{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(218, 218, 218);
+}
+.thu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(218, 218, 218);
+}
+.fri{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgb(218, 218, 218);
+}
+.semester{
+    color:red;
+    font-size:20px;
+    font-weight: 600;
+}
+.sigan{
+    font-size:30px;
+    font-weight: 700;
+    display:inline-block;
+}
+.drop{
+    width:140px;
+    height:40px;
+    background-color: rgb(114, 164, 207);
+    color:white;
+    font-size: 23px;
+    display:inline-flex;
+    justify-content: center;
+    text-align: center;
+    margin-left:600px;
+}
+
+.database{
+    grid-row: 11/13;
+    grid-column: 3/4;
+    background-color: pink;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+   
+    color: white;
+    font-weight: 700;
+}
+.database1{
+    grid-row : 11/13;
+    grid-column: 5/6;
+    background-color: pink;
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color: white;
+    font-weight: 700;
+}
+.things{
+    grid-column: 2/3;
+    grid-row: 17/19;
+    background-color: rgb(255, 242, 122);
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color: white;
+    font-weight: 700;
+    
+}
+.things1{
+    grid-column: 4/5;
+    grid-row : 17/19;
+    background-color: rgb(255, 242, 122);
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    color: white;
+    font-weight : 700;
+}
+.java{
+    grid-column: 2/3;
+    grid-row: 11/13;
+    background-color: rgb(133, 221, 255);
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color: white;
+    font-weight: 700;
+
+}
+.java1{
+    grid-column: 4/5;
+    grid-row: 11/13;
+    background-color: rgb(133, 221, 255);
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color: white;
+    font-weight: 700;
+}
+.labor{
+    grid-column: 5/6;
+    grid-row: 14/20;
+    background-color: rgb(70, 196, 91);
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color: white;
+    font-weight: 700;
+}
+.English{
+    grid-column: 2/3;
+    grid-row: 14/16;
+    background-color: rgb(170, 73, 157);
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color: white;
+    font-weight: 700;
+}
+.English1{
+    grid-column: 4/5;
+    grid-row: 14/16;
+    background-color: rgb(170, 73, 157);
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color: white;
+    font-weight: 700;
+}
+.Last{
+    grid-column: 4/5;
+    grid-row: 5/7;
+    background-color: rgb(255, 170, 58);
+    justify-content: center;
+    align-items: center;
+    display:flex;
+    color: white;
+    font-weight: 700;
+}
